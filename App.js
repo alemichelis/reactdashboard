@@ -1,21 +1,21 @@
 import './App.css';
-import Accordion from './componentes/Accordion';
-import DropdownExample from './componentes/DropdownExample';
-import Form from './componentes/Form';
-import Tables from './componentes/Tables';
-import Header from './componentes/Header';
-import Navbar from './componentes/Navbar';
+import Accordion from './components/Accordion';
+import DropdownExample from './components/DropdownExample';
+import Form from './components/Form';
+import Tables from './components/Tables';
+import Header from './components/Header';
+import Navbar from './components/Navbar';
 import { Link, Routes, Route, BrowserRouter, Outlet, Router, Switch } from 'react-router-dom';
-import Search from './componentes/Search';
-import Displays from './componentes/Displays';
-import View from './componentes/View';
-import Layout from './componentes/Layout';
-import Clients from './componentes/Clients';
+import Search from './components/Search';
+import Displays from './components/Displays';
+import View from './components/View';
+import Layout from './components/Layout';
+import Clients from './components/Clients';
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
-import ButtonExample from './componentes/ButtonExample';
-import SearchComponent from './componentes/SearchComponent';
-import Register from './componentes/register';
+import ButtonExample from './components/ButtonExample';
+import SearchComponent from './components/SearchComponent';
+import Register from './components/register';
 
 export default function App() {
   const toPage = page => () => {
